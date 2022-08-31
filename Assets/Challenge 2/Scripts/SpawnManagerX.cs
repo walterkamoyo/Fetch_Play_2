@@ -32,6 +32,8 @@ public class SpawnManagerX : MonoBehaviour
         Instantiate(ballPrefabs[ballIndex], spawnPos, ballPrefabs[ballIndex].transform.rotation);
         spawnInterval = Random.Range(3.0f, 5.0f);
         Debug.Log(spawnInterval);
+
+      
     }
 
 }
